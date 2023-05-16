@@ -29,13 +29,13 @@ class Triangulo {
 // Função principal do programa
 int main() {
     double a, b, c;
-    std::cout << "Digite as medidas dos lados do triangulol X: ";
+    std::cout << "Digite as medidas dos lados do triangulo X: ";
     std::cin >> a >> b >> c;
     
     // Criação de um objeto da classe Triangulo para o triângulo X
     Triangulo X(a, b, c);
     
-    std::cout << "Digite as medidas dos lados do triangulol Y: ";
+    std::cout << "Digite as medidas dos lados do triangulo Y: ";
     std::cin >> a >> b >> c;
     
     // Criação de um objeto da classe Triangulo para o triângulo Y
